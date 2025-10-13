@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fome _ Methode</title>
+</head>
+
+<body>
+    <form action="/submit" method="post">
+        <!-- Text input for username -->
+        <h1>Form to apply for Sigma Web Development course - TA </h1>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required placeholder="Enter Your Username" autofocus>
+        <br><br>
+
+        <!-- Password input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required placeholder="Enter Your Password">
+        <br><br>
+
+        <!-- Radio buttons for gender -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br><br>
+        <!-- checkbox -->
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe to newsletter</label>
+            <br><br>
+            <label for="">What You Have</label>
+            <br><br>
+            <input type="checkbox" id="car" name="car" value="yes">
+            <label for="car">car</label>
+            <br><br>
+            <input type="checkbox" id="mobile" name="mobile" value="yes">
+            <label for="mobile">mobile</label>
+            <br><br>
+            <input type="checkbox" id="lap tope" name="lap tope" value="yes">
+            <label for="lap tope">lap tope</label>
+        </div>
+        <!-- enter url -->
+        <br>
+        <div>
+            <label for="url">Enter URL:</label>
+            <input type="url" id="url" name="url" required placeholder="Enter URL">
+        </div>
+        <br>
+        <label for="comment">Enter your comment here...</label>
+        <br>
+        <textarea id="comment" name="comment" placeholder="Enter your comment here..." rows="4" cols="50"></textarea>
+        <br><br>
+        <label for="">Select Your Fav Fruits</label>
+        <br>
+        <select name="fruits">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="cherry">Cherry</option>
+        </select>
+        <br><br>
+        
+
+        <!-- Submit button -->
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
