@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		/* .box:first-child{
+			background-color: red;
+		} */
+		/* .box::first-line{
+			color: yellow;
+		} */
+		/* .boxes *{
+			color: steelblue;
+			border: 2px solid black;
+		 }
+		 .box , [data-colore="1st"]{
+ 			padding-top: 45px;
+		 } */
+		/* .box:nth-child(odd) {
+			background-color: red;
+		} */
+		/* .box:nth-last-child(2) {
+			background-color: red;
+		} */
+		.boxes::before{
+            content: "Roshan is good";
+            color: blue;
+        }
+		.boxes::after{
+            content: "Sigma Web Development Course";
+            color: rgb(255, 0, 0);
+        }
+		::selection{
+			background-color: black;
+			color: #0ce5ba;
+		}
+		.box::first-letter{
+			color: peru;
+		}
+		.box::first-letter{
+			font-size: 50px;
+		}
+		input::placeholder{
+			color: blueviolet;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="boxes">
+		<div data-colore="1st" class="box">I am first box</div>
+		<div class="box">I am a box</div>
+		<div class="box">I am a box</div>
+		<input type="text" placeholder="Type here text ....." >
+	</div>
+</body>
+
+</html>

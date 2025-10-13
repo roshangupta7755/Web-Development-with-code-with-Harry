@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CSS Grid-1</title>
+	<style>
+		.container{
+			border: 2px solid black;
+			display: grid;
+			/* grid: 120px 150px; */
+			/* grid-template-columns: [pahala] 120px [doosra] 170px [t]; */
+			/* grid-template-rows: 100px 100px 100px; */
+			grid-template-columns: 1fr 2fr 1fr ;
+			/* grid-template-columns: repeat(4 , minmax(100px , 1fr)); */
+			grid-template-columns: repeat(4 , 80px);
+			/* gap: 30px; */
+			row-gap: 40px;
+			column-gap: 10px;
+			
+		} 
+		.item{
+			border: 2px solid red;
+			height: 95px;
+			/* width: 55px; */
+		}
+		.item1{
+            /* grid-row: 1/2; */
+            /* or you can do  */
+            /* grid-row-start: 1;
+            grid-row-end: 2; */
+
+            /* same thing */
+            /* grid-column: 1/2; */
+        }
+		.item4{
+			/* grid-column: pahala/t;
+			grid-row: 1/2; */
+		}
+
+	</style>
+</head>
+<body>
+	
+	<div class="container">
+		<div class="item item1">1</div>
+		<div class="item">2</div>
+		<div class="item">3</div>
+		<div class="item item4">4</div>
+		<div class="item">5</div>
+	</div>
+</body>
+</html>
