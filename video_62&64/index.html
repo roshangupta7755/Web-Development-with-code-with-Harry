@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Random Brand Name</title>
+</head>
+
+<body>
+	<script>
+		function getWord(a, b, c) {
+			let ran = Math.random();
+			if (ran <= 0.33) return a;
+			else if (ran <= 0.66) return b;
+			else return c;
+		}
+
+		let first = getWord("Crazy", "Amazing", "Fire");
+		let second = getWord("Engine", "Foods", "Garments");
+		let third = getWord("Bros", "Limited", "Hub");
+
+		console.log(`${first} ${second} ${third}`);
+	</script>
+</body>
+
+</html>
