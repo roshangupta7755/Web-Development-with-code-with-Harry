@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="box">Main Box</div>
+
+<script>
+let box = document.querySelector("#box");
+
+box.insertAdjacentHTML("beforebegin", "<p>Before Begin</p>");
+box.insertAdjacentHTML("afterbegin", "<p>Inside Start</p>");
+box.insertAdjacentHTML("beforeend", "<p>Inside End</p>");
+box.insertAdjacentHTML("afterend", "<p>After End</p>");
+</script>
+
+</body>
+</html>
