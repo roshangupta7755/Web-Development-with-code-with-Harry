@@ -9,8 +9,7 @@ body {
   font-size: 20px;
   line-height: 1.6;
 }
-
-
+         
 /* dots animation */
 .loading::after {
   content: "";
@@ -24,4 +23,5 @@ body {
   75%  { content: "..."; }
   100% { content: ""; }
 }
+
 
