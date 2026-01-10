@@ -114,4 +114,8 @@ body {
     opacity: var(--a);
     transition: all 1s ease-out;
 }
+.buttons >*{
+	margin: 0 12px;
+}
+
 
