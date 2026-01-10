@@ -125,5 +125,10 @@ body {
 	outline: none;
 	font-size: 16px;
 }
+.signupbtn:hover{
+	font-size: 17px;
+	color: white;
+}
+
 
 
