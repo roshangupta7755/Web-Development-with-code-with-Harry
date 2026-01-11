@@ -138,6 +138,11 @@ body {
     cursor: pointer;
     font-size: 16px;
 }
+.loginbtn:hover {
+    font-weight: bold;
+    font-size: 17px;
+}
+
 
 
 
