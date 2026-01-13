@@ -189,6 +189,10 @@ body {
     justify-content: center;
     align-items: center;
 }
+.playnow span{
+    font-size: 16px;
+    width: 64px;
+}
 
 
 
