@@ -159,6 +159,9 @@ body {
     overflow: auto;
     margin-bottom: 44px;
 }
+.songList ul{
+    padding: 0 12px;
+}
 
 
 
