@@ -154,6 +154,11 @@ body {
 	justify-content: center;
 	gap: 16px;
 }
+.songList {
+    height: 544px;
+    overflow: auto;
+    margin-bottom: 44px;
+}
 
 
 
