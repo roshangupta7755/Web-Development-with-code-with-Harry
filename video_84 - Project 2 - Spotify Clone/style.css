@@ -202,6 +202,16 @@ body {
     bottom: 0;
     margin: 6px;
 } 
+.circle {
+    width: 13px;
+    height: 13px;
+    border-radius: 13px;
+    background-color: black;
+    position: relative;
+    bottom: 5px;
+    left: 0%;
+    transition: left 0.5s;
+}
 
 
 
