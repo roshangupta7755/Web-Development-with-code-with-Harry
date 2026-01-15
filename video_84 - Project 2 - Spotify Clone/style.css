@@ -221,6 +221,11 @@ body {
     justify-content: space-evenly;
     align-items: center;
 }
+.songinfo {
+    color: black;
+    padding: 0 12px;
+    width: 250px;
+}
 
 
 
