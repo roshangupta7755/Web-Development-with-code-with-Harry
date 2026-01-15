@@ -216,6 +216,11 @@ body {
 .songbuttons img {
     cursor: pointer;
 }
+.timevol{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
 
 
