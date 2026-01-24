@@ -6,7 +6,7 @@
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)
 
 
----
+--- 
 ![Frontend](https://img.shields.io/badge/Frontend-Development-blue?style=for-the-badge)
 ![Responsive](https://img.shields.io/badge/Responsive-Design-success?style=for-the-badge)
 
