@@ -12,7 +12,7 @@
 
 
 ---
-
+ 
 A **Spotify-inspired music streaming web application** built using **HTML, CSS, and JavaScript** as part of my learning journey from the **Sigma Web Development Course by CodeWithHarry**.
 
 This project focuses on creating an interactive user interface, handling audio playback, and implementing real-world frontend concepts.
