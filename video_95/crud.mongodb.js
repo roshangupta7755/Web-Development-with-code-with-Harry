@@ -9,7 +9,9 @@ use("CrudDb")
 // =========================
 db.createCollection("courses")
 
-
+// =========================
+// CREATE (INSERT DATA)
+// =========================
 // db.courses.insertOne({
 //     name: "Harrys web dev free course",
 //     price: 0,
@@ -105,4 +107,5 @@ db.courses.deleteMany({price: 1000})
 
 
 // https://www.mongodb.com/docs/manual/reference/operator/query/
+
 
