@@ -81,7 +81,9 @@ db.courses.insertMany([
     projects: 32
   }
 ])
+// =========================
 // READ
+// =========================
 // let a = db.courses.find({price: 0}) 
 
 // console.log(a.toArray())
@@ -105,6 +107,7 @@ db.courses.deleteMany({price: 1000})
 
 
 // https://www.mongodb.com/docs/manual/reference/operator/query/
+
 
 
 
