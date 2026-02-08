@@ -1,5 +1,8 @@
-// CRUD Operation
+// =========================
+// SWITCH / CREATE DATABASE
+// =========================
 use("CrudDb")
+
 
 
 // Create Operation
@@ -97,5 +100,6 @@ db.createCollection("courses")
 db.courses.deleteOne({price: 1000})
 
 db.courses.deleteMany({price: 1000})
+
 
 // https://www.mongodb.com/docs/manual/reference/operator/query/
