@@ -84,13 +84,10 @@ db.courses.insertMany([
 // =========================
 // READ
 // =========================
-// let a = db.courses.find({price: 0}) 
+db.courses.find({ price: 0 })
+console.log(db.courses.find({ price: 0 }));
 
-// console.log(a.toArray())
-
-// let b = db.courses.findOne({price: 0}) 
-
-// console.log(b)
+db.courses.findOne({ price: 0 })
 
 // UPDATE
 
@@ -107,6 +104,7 @@ db.courses.deleteMany({price: 1000})
 
 
 // https://www.mongodb.com/docs/manual/reference/operator/query/
+
 
 
 
