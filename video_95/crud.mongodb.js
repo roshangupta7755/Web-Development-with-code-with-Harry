@@ -89,21 +89,36 @@ console.log(db.courses.find({ price: 0 }));
 
 db.courses.findOne({ price: 0 })
 
-// UPDATE
+// // =========================
+// // UPDATE
+// // =========================
+// db.courses.updateOne(
+//   { name: "Python Masterclass" },
+//   { $set: { price: 100 } }
+// )
 
-// db.courses.updateOne({price: 0}, {$set:{price: 100}})
+// db.courses.updateMany(
+//   { price: 0 },
+//   { $set: { price: 1000 } }
+// )
 
-// db.courses.updateMany({price: 0}, {$set:{price: 1000}})
+
+// // =========================
+// // DELETE
+// // =========================
+db.courses.deleteOne({ price: 100 })
+
+db.courses.deleteMany({ price: 1000 })
 
 
-// DELETE
-
-db.courses.deleteOne({price: 1000})
-
-db.courses.deleteMany({price: 1000})
+// // =========================
+// // VERIFY FINAL DATA
+// // =========================
+db.courses.find()
 
 
 // https://www.mongodb.com/docs/manual/reference/operator/query/
+
 
 
 
