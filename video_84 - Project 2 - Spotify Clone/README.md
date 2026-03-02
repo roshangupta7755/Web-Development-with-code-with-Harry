@@ -10,7 +10,7 @@
 ![Frontend](https://img.shields.io/badge/Frontend-Development-blue?style=for-the-badge)
 ![Responsive](https://img.shields.io/badge/Responsive-Design-success?style=for-the-badge)
 
-
+    
 ---  
  
 A **Spotify-inspired music streaming web application** built using **HTML, CSS, and JavaScript** as part of my learning journey from the **Sigma Web Development Course by CodeWithHarry**.
